@@ -1,0 +1,146 @@
+body {
+  margin: 0;
+  font-family: "Arial", sans-serif;
+  color: #000;
+  background-color: #fff;
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+}
+
+.logo {
+  width: 150px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+  margin-top: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.hero-img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.intro {
+  padding: 40px 10%;
+  text-align: justify;
+}
+
+.intro h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.highlight {
+  color: #c32727;
+  font-weight: bold;
+}
+
+.expositions {
+  background-color: #a33d2b;
+  color: white;
+  text-align: center;
+  padding: 40px 0;
+}
+
+.expo-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 20px;
+  justify-items: center;
+  margin-top: 20px;
+}
+
+.expo-grid img {
+  width: 150px;
+  height: auto;
+  border: 2px solid #fff;
+}
+
+.galerie {
+  background-color: #000;
+  color: white;
+  text-align: center;
+  padding: 40px 0;
+}
+
+.galerie-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 25px;
+  justify-items: center;
+  margin: 30px 10%;
+}
+
+.galerie-grid img {
+  width: 150px;
+  height: auto;
+  border-radius: 5px;
+}
+
+.buttons {
+  margin-top: 20px;
+}
+
+button {
+  background-color: #d6c2a1;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+button.alt {
+  background-color: #b8906b;
+}
+
+footer {
+  background-color: #d6c2a1;
+  padding: 40px 10%;
+  text-align: left;
+}
+
+footer h2 {
+  border-bottom: 2px solid #000;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.contact-info {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-logo {
+  width: 120px;
+}
+
+.footer-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.socials p {
+  margin: 5px 0;
+}
