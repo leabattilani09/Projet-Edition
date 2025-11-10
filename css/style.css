@@ -84,7 +84,7 @@ nav a {
 
 .galerie-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 25px;
   justify-items: center;
   margin: 30px 10%;
@@ -97,11 +97,13 @@ nav a {
 }
 
 .buttons {
-  margin-top: 20px;
+  display: flex;
+  margin-top: 200px;
+  justify-content: flex-end;
+  margin-right: 20px;
 }
 
 button {
-  background-color: #d6c2a1;
   border: none;
   padding: 10px 20px;
   margin: 5px;
@@ -110,39 +112,47 @@ button {
   border-radius: 4px;
 }
 
-button.alt {
-  background-color: #b8906b;
+.gal-btn {
+  background-color: #B8885B;
+  color: white;
 }
 
-footer {
-  background-color: #d6c2a1;
-  padding: 40px 10%;
-  text-align: left;
+.gal-alt {
+  background-color: #E6E6E6;
+  color: #B8885B;
 }
 
-footer h2 {
-  border-bottom: 2px solid #000;
-  padding-bottom: 10px;
-  margin-bottom: 20px;
+.footer-btn {
+  background-color: black;
+  color: white;
+}
+
+.footer-alt {
+  background-color: #E6E6E6;
+  color: black;
 }
 
 .contact-info {
   display: flex;
-  flex-wrap: wrap;
-  align-items: center;
+  background-color: #B8885B;
   justify-content: space-between;
+  align-items: center;
+  gap: 100px;
+  padding: 0 20px;
+  h2 {  
+    font-family: "Jomhuria", serif;
+    font-size: 128px;
+    margin: 10px 0;
+    font-weight: 500;
+    letter-spacing: -2px;
+  }
 }
 
-.footer-logo {
-  width: 120px;
-}
-
-.footer-buttons {
+footer {
+  background-color: white;
+  color: black;
   display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-
-.socials p {
-  margin: 5px 0;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
 }
