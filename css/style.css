@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: auto;
   font-family: "Roboto", sans-serif;
@@ -151,6 +155,11 @@ button {
   letter-spacing: -2px;
 }
 
+.footer-buttons {
+  display: flex;
+  gap: 10px;
+}
+
 footer {
   background-color: white;
   color: black;
@@ -160,4 +169,137 @@ footer {
   padding: 20px 40px;
 }
 
+.socials {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.socials a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  color: black;
+}
+
+.socials img {
+  width: 32px;
+  height: 32px;
+}
+
+.socials p {
+  margin: 0;
+}
+
+/* RESPONSIVE MOBILE */
+@media (max-width: 768px) {
+  body {
+    margin: 0;
+  }
+
+  header {
+    padding: 15px;
+  }
+
+  .logo {
+    width: 120px;
+  }
+
+  nav ul {
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+  }
+
+  nav ul li:not(:last-child) {
+    border-right: none;
+    padding-right: 0;
+  }
+
+  .intro {
+    padding: 30px 5%;
+  }
+
+  /* EXPOSITIONS - UNE SEULE COLONNE */
+  .expo-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 0 20px;
+  }
+
+  .expo-grid img {
+    width: 200px;
+  }
+
+  /* GALERIE - UNE SEULE COLONNE */
+  .galerie-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    margin: 30px 5%;
+  }
+
+  .galerie-grid img {
+    width: 200px;
+  }
+
+  .buttons {
+    flex-direction: column;
+    margin: 30px 20px 0;
+  }
+
+  button {
+    width: 100%;
+  }
+
+  .contact-info {
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .contact-info h2 {
+    font-size: 80px;
+  }
+
+  .footer-buttons {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  footer {
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .logo-footer .logo {
+    width: 100px;
+  }
+}
+
+@media (max-width: 480px) {
+  .logo {
+    width: 100px;
+  }
+
+  nav a {
+    font-size: 14px;
+  }
+
+  .intro h2,
+  .expositions h2,
+  .galerie h2 {
+    font-size: 22px;
+  }
+
+  .contact-info h2 {
+    font-size: 60px;
+  }
+
+  .expo-grid img,
+  .galerie-grid img {
+    width: 180px;
+  }
+}
 
