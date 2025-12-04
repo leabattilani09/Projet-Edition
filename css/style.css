@@ -56,12 +56,12 @@ nav a {
 }
 
 .highlight {
-  color: #c32727;
+  color: #A00000;
   font-weight: bold;
 }
 
 .expositions {
-  background-color: #a33d2b;
+  background-color: #722A1E;
   color: white;
   text-align: center;
   padding: 40px 0;
@@ -119,13 +119,13 @@ button {
 }
 
 .gal-btn {
-  background-color: #B8885B;
+  background-color: #8C5F36;
   color: white;
 }
 
 .gal-alt {
   background-color: #E6E6E6;
-  color: #B8885B;
+  color: ##000;
 }
 
 .footer-btn {
@@ -300,5 +300,6 @@ footer {
     width: 180px;
   }
 }
+
 
 
