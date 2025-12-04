@@ -192,7 +192,6 @@ footer {
   margin: 0;
 }
 
-/* RESPONSIVE MOBILE */
 @media (max-width: 768px) {
   body {
     margin: 0;
@@ -232,7 +231,6 @@ footer {
     width: 200px;
   }
 
-  /* GALERIE - UNE SEULE COLONNE */
   .galerie-grid {
     grid-template-columns: 1fr;
     gap: 20px;
@@ -302,4 +300,5 @@ footer {
     width: 180px;
   }
 }
+
 
